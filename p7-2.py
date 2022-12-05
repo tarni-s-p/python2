@@ -27,3 +27,7 @@ print(s1^s2)
 
 print("elements check subset of another set")
 print(s1<s2)
+s3={10,20}
+s4={10,20}
+print(s3.issubset(s4))
+print(s3<s4)
